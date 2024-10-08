@@ -1,10 +1,12 @@
 package Runner;
 
 import com.Exception.Cafe;
+import com.Exception.NewCafe;
 
 public class CafeRunner {
 
     public static void main(String[] args) throws Cafe {
-        throw new Cafe("punit");
+        NewCafe newCafe=new NewCafe(1);
+
     }
 }

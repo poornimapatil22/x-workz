@@ -8,7 +8,7 @@ public class Bird {
         return birdCount;
     }
 
- void setBirdCount(int birdCount){
+    void setBirdCount(int birdCount){
         this.birdCount=birdCount;
     }
 }

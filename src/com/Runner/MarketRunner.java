@@ -11,11 +11,11 @@ public class MarketRunner {
 
         SuperMarket superMarket=new SuperMarket();
         superMarket.buy();//parent
-        superMarket.sell();////child
+//        superMarket.sell();////child
 
 
-        Contractor contractor=new BrigadeContractor();
-        contractor.bidding();
+//        Contractor contractor=new BrigadeContractor();
+//        contractor.bidding();
 
         Traffic traffic=new BrigadeContractor();
         traffic.wearSeatBelt();
@@ -24,7 +24,6 @@ public class MarketRunner {
 
 
         BrigadeContractor brigadeContractor=new BrigadeContractor();
-        brigadeContractor.bidding();
         brigadeContractor.wearSealBelt();
 
 
